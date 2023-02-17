@@ -1,10 +1,9 @@
 package ru.rsreu.rodin.petprojectkotlin.service
 
-import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify
 import org.junit.jupiter.api.Test
-import ru.rsreu.rodin.petprojectkotlin.dataSource.BankDataSource
+import ru.rsreu.rodin.petprojectkotlin.repository.BankDataSource
 
 internal class BankServiceTest {
 

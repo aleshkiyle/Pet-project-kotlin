@@ -1,7 +1,7 @@
 package ru.rsreu.rodin.petprojectkotlin.service
 
 import org.springframework.stereotype.Service
-import ru.rsreu.rodin.petprojectkotlin.dataSource.BankDataSource
+import ru.rsreu.rodin.petprojectkotlin.repository.BankDataSource
 import ru.rsreu.rodin.petprojectkotlin.model.Bank
 
 @Service

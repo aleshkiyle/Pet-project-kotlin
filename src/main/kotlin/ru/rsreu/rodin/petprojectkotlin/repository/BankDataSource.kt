@@ -1,4 +1,4 @@
-package ru.rsreu.rodin.petprojectkotlin.dataSource
+package ru.rsreu.rodin.petprojectkotlin.repository
 
 import ru.rsreu.rodin.petprojectkotlin.model.Bank
 

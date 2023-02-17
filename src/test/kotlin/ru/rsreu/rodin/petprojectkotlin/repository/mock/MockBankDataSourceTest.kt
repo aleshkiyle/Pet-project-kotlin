@@ -1,4 +1,4 @@
-package ru.rsreu.rodin.petprojectkotlin.dataSource.mock
+package ru.rsreu.rodin.petprojectkotlin.repository.mock
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test

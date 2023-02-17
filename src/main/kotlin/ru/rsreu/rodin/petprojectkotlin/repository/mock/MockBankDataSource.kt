@@ -1,7 +1,7 @@
-package ru.rsreu.rodin.petprojectkotlin.dataSource.mock
+package ru.rsreu.rodin.petprojectkotlin.repository.mock
 
 import org.springframework.stereotype.Repository
-import ru.rsreu.rodin.petprojectkotlin.dataSource.BankDataSource
+import ru.rsreu.rodin.petprojectkotlin.repository.BankDataSource
 import ru.rsreu.rodin.petprojectkotlin.model.Bank
 import java.lang.IllegalArgumentException
 
