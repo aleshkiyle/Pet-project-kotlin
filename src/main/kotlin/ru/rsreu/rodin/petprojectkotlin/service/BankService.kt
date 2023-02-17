@@ -7,7 +7,7 @@ import ru.rsreu.rodin.petprojectkotlin.model.Bank
 @Service
 class BankService(private val dataSource: BankDataSource) {
 
-    fun getBanks(): Collection<Bank> = dataSource.retrieveBanks()
+    fun getBanks(): List<Bank> = dataSource.retrieveBanks()
 
 
 }

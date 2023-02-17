@@ -4,5 +4,5 @@ import ru.rsreu.rodin.petprojectkotlin.model.Bank
 
 interface BankDataSource {
 
-    fun retrieveBanks(): Collection<Bank>
+    fun retrieveBanks(): List<Bank>
 }

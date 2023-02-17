@@ -8,10 +8,10 @@ import ru.rsreu.rodin.petprojectkotlin.model.Bank
 class MockBankDataSource: BankDataSource {
 
     val banks = listOf(
-        Bank("1234", 3.14, 17),
-        Bank("1010", 17.0, 0),
-        Bank("5678", 0.0, 100),
+        Bank(1, "1234", 3.14, 17),
+        Bank(2,"1010", 17.0, 0),
+        Bank(3,"5678", 0.0, 100),
     )
 
-    override fun retrieveBanks(): Collection<Bank> = banks
+    override fun retrieveBanks(): List<Bank> = banks
 }
